@@ -1,4 +1,4 @@
-package generic.test.ex5;
+package generic.ex5;
 
 /**
  * 제네릭 타입은 컴파일 시점에 Object로 변환된다.

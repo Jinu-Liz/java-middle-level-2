@@ -1,4 +1,4 @@
-package generic.test.ex3;
+package generic.ex3;
 
 /**
  * 자바 컴파일러 입장에서는 T에 어떤 타입이 들어올 지 예측할 수 없다.

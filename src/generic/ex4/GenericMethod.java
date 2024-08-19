@@ -1,4 +1,4 @@
-package generic.test.ex4;
+package generic.ex4;
 
 /**
  * 제네릭 타입의 경우, 객체를 생성하는 시점에 타입 인자를 전달하고
