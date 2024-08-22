@@ -2,6 +2,10 @@ package collection.array;
 
 import java.util.Arrays;
 
+/**
+ * 배열을 사용하므로, 정확한 길이를 알지 못하면 메모리가 낭비될 수 있다.
+ * 데이터를 중간에 추가/삭제 시 비효율적이다.
+ */
 public class MyArrayListV4<E> {
 
   private static final int DEFAULT_CAPACITY = 5;
@@ -20,6 +24,15 @@ public class MyArrayListV4<E> {
 
   public int size() {
     return size;
+  }
+
+  /**
+   * 타입을 지정해버리면, 타입 방어를 할 수 없다.
+   * 따라서, 데이터가 들어오는 경우를 잘 막아야한다.
+    */
+  public void addBad(String s) {
+    elementData[size] = s;
+    size++;
   }
 
   public void add(E e) {
