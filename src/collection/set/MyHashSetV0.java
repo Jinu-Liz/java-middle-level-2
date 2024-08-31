@@ -2,6 +2,9 @@ package collection.set;
 
 import java.util.Arrays;
 
+/**
+ * 입력 / 검색의 성능이 O(n)으로 좋지 않다.
+ */
 public class MyHashSetV0 {
 
   private int[] elementData = new int[10];
